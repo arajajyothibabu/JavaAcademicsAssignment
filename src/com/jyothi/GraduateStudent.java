@@ -87,9 +87,12 @@ public class GraduateStudent extends Student implements Academic {
                 "studentId='" + super.getStudentId() + '\'' +
                 ", firstName='" + super.getFirstName() + '\'' +
                 ", lastName='" + super.getLastName() + '\'' +
-                "grades=" + Arrays.toString(grades) +
+                ", grades=" + Arrays.toString(grades) + '\'' +
                 ", thesis='" + thesis + '\'' +
-                ", weeklyHours=" + weeklyHours +
+                ", weeklyHours=" + weeklyHours + '\'' +
+                ", credits =" + credits() + '\'' +
+                ", average =" + average() + '\'' +
+                ", graduate =" + graduate() + '\'' +
                 '}';
     }
 

@@ -65,7 +65,10 @@ public class UndergraduateStudent extends Student implements Academic{
                 "studentId='" + super.getStudentId() + '\'' +
                 ", firstName='" + super.getFirstName() + '\'' +
                 ", lastName='" + super.getLastName() + '\'' +
-                "grades=" + Arrays.toString(grades) +
+                ", grades=" + Arrays.toString(grades) + '\'' +
+                ", credits =" + credits() + '\'' +
+                ", average =" + average() + '\'' +
+                ", graduate =" + graduate() + '\'' +
                 '}';
     }
 

@@ -64,6 +64,9 @@ public class Student implements Academic {
                 "studentId='" + studentId + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
+                ", credits =" + credits() + '\'' +
+                ", average =" + average() + '\'' +
+                ", graduate =" + graduate() + '\'' +
                 '}';
     }
 }
