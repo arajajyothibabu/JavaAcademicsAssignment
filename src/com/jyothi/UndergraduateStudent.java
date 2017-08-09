@@ -47,7 +47,7 @@ public class UndergraduateStudent extends Student implements Academic{
     public float credits() {
         float credits = 0;
         for(int index = 0; index < grades.length; index++){
-            if(grades[index] > 50){ //FIXME: expecting 100 as full marks,coz don't have info on total marks to calculate percentage
+            if(grades[index] >= 50){ //FIXME: expecting 100 as full marks,coz don't have info on total marks to calculate percentage
                 credits += 0.5;
             }
         }
@@ -68,5 +68,5 @@ public class UndergraduateStudent extends Student implements Academic{
                 "grades=" + Arrays.toString(grades) +
                 '}';
     }
-    
+
 }
