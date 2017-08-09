@@ -7,7 +7,7 @@ public interface Academic {
 
     float average();
 
-    int credits();
+    float credits();
 
     boolean graduate();
 

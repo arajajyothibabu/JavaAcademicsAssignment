@@ -49,7 +49,7 @@ public class Student implements Academic {
     }
 
     @Override
-    public int credits() {
+    public float credits() {
         return 0;
     }
 
